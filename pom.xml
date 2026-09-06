@@ -1,0 +1,11 @@
+<properties>
+    <sonar.host.url>http://localhost:19000</sonar.host.url>
+    <sonar.projectKey>my-app</sonar.projectKey>
+</properties>
+
+<distributionManagement>
+    <repository>
+        <id>nexus-releases</id>
+        <url>http://localhost:18081/repository/maven-releases/</url>
+    </repository>
+</distributionManagement>
