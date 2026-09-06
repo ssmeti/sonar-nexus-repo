@@ -1,11 +1,6 @@
 pipeline {
     agent any
 
-    tools {
-        maven 'Maven-3.9'   // configured in Global Tool Configuration
-        jdk 'JDK-17'
-    }
-
     environment {
         SONAR_HOST_URL = 'http://localhost:9000'
         NEXUS_URL      = 'localhost:8081'
