@@ -75,7 +75,7 @@ pipeline {
                     artifacts: [
                         [artifactId: 'my-app',
                          classifier: '',
-                         file: 'target/my-app.jar',
+                         file: 'target/my-app-1.0-SNAPSHOT.jar',
                          type: 'jar']
                     ]
                 )
