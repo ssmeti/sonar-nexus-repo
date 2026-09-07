@@ -4,7 +4,7 @@ pipeline {
     environment {
             PATH = "/usr/local/Cellar/maven/3.9.16/libexec/bin:/usr/local/Cellar/openjdk/26.0.2.1/libexec/openjdk.jdk/Contents/Home/bin:${env.PATH}"
         SONAR_HOST_URL = 'http://localhost:9000'
-        NEXUS_URL      = 'localhost:8081'
+        NEXUS_URL      = 'localhost:18081'
         NEXUS_REPO     = 'maven-releases'
         NEXUS_CRED_ID  = 'nexus-credentials'
         SONAR_TOKEN    = credentials('sonar-token')  // stored in Jenkins credentials
